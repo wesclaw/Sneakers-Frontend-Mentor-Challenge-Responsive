@@ -1,0 +1,193 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn{
+  height: 10px;
+}
+
+.user-image{
+  height: 40px;
+  position: relative;
+  top: -21px;
+}
+
+body{
+  background-color: black;
+  color: rgb(209, 209, 219);
+}
+
+.price-tag{
+  display: flex;
+  align-items: center;
+}
+
+.add-cart:hover{
+  box-shadow: 0px 0px 10px rgba(255, 166, 0, 0.815);
+}
+
+.add-cart:active{
+  box-shadow: 0px 0px 0px rgba(255, 166, 0, 0.815);
+}
+
+
+
+h1{
+  font-size: 3rem;
+}
+
+.company-p{
+  color: orange;
+  font-weight: 500;
+}
+
+.price-tag h3{
+  position: relative;
+  top: -5px;
+  left: -10px;
+}
+
+.price-tag p{
+  background-color: grey;
+  color: orange;
+  font-weight: bold;
+  padding: 5px 6px;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+.price-tag h3{
+  position: relative;
+  left: 0px;
+}
+
+.price-tag p{
+  position: relative;
+  left: 16px;
+}
+
+.btn{
+  margin-left: 15px;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+
+button{
+  background-color: transparent;
+  border: none;
+  color: ghostwhite;
+}
+
+.container{
+  align-items: center;
+  gap: 50px;
+}
+
+.main-image{
+  object-fit: cover;
+  
+}
+
+.main{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.main h1{
+  max-width: 500px;
+}
+
+.main p{
+  max-width: 500px;
+}
+
+.increase-and-decrease{
+  display: flex;
+  align-items: center;
+}
+
+.increase-and-decrease  .add-cart{
+  background-color: hsl(26, 100%, 55%);
+  margin-left: 20px;
+  padding: 10px 50px;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+#value{
+  padding: 10px;
+  background-color: hsl(223, 64%, 98%);
+  color: black;
+  font-weight: 500;
+}
+
+.increase{
+  padding: 10px;
+  background-color: hsl(223, 64%, 98%);
+  color: orange;
+  font-weight: bold;
+  border: 1px solid black;
+}
+
+.decrease{
+  padding: 10px;
+  background-color:  hsl(223, 64%, 98%);
+  color: orange;
+  font-weight: bold;
+  border: 1px solid black;
+}
+
+.cart-numbers{
+  position: absolute;
+  border-radius: 40%;
+  height: 25px;
+  width: 25px;
+  right: 100%;
+  top: 0%;
+  background-color: hsl(26, 100%, 55%);
+  color: ghostwhite;
+  font-weight: bold;
+  display: none;
+}
+
+.btn-cart-icon{
+  position: relative;
+  cursor: pointer;
+}
+
+@media (max-width: 1000px){
+  .main .container{
+  flex-direction: column;
+}
+  .main{
+    margin-top: 50px;
+  }
+
+  .user{
+    margin-bottom: 20px;
+  }
+
+  .btn-cart-icon{
+    position: relative;
+  }
+
+  .cart-numbers{
+    position: absolute;
+    border-radius: 40%;
+    height: 25px;
+    width: 25px;
+    right: 100%;
+    top: 0%;
+    background-color: hsl(26, 100%, 55%);
+    color: ghostwhite;
+    font-weight: bold;
+    display: none;
+  }
+  
+
+
+}
